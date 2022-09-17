@@ -1,20 +1,13 @@
-# A server Side Loading(SSL) Netflix-clone React Application
+# A interactive burger building React Application
 
 ## This project is created using the following Technologies :
-NextJS \
-Typescript  
-Tailwind CSS 
+React
 
 ## Authentication 
-
-Firebase top-level auth is used for sign-in feature. Payment portal will be added in future (stripe payment portal)
+NONE
 
 ## About the project 
-This project uses TMDB api to fetch the movie-logo, movie banner, movie info etc and display them using react coded front-end netflix like format.
 
-You can also play the trailer of the movie and tv series in the application using react-youtube embed.
-
-You can also create a custom personal list of movies/tv series 
 
 
 
