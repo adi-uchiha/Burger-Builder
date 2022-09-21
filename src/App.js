@@ -1,8 +1,12 @@
+import Layout from "./components/Layout/Layout";
+import BurgerBuilder from "./containers/burgerBuilder/BurgerBuilder";
 
 function App() {
   return (
     <div >
-      MY app
+      <Layout>
+        <BurgerBuilder />
+      </Layout>
     </div>
   );
 }
