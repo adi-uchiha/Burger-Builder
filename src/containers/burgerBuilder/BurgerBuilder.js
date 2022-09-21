@@ -8,7 +8,7 @@ export default class BurgerBuilder extends Component {
   //   this.state = {}
   // }
   state = {
-    ingredients: {
+    ingredients: { 
       salad : 1,
       bacon: 1,
       cheese: 2,
