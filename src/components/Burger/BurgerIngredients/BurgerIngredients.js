@@ -3,7 +3,6 @@ import classes from './BurgerIngredients.module.css'
 import PropTypes from 'prop-types'
 
 const BurgerIngredients = (props) => {
-    console.log(props.type)
     let ingredients = null;
     switch (props.type) {
         case ('bread-bottom'):
