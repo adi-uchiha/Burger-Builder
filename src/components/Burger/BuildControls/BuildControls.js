@@ -15,6 +15,7 @@ function BuildControls(props) {
 
   return (
     <div className={classes.BuildControls} >
+      <p>  Current Prize : <strong>{props.prize.toFixed(2)}</strong>  </p>
         {controls.map((ele)=> (
             <BuildControl 
             key={ele.label} 
@@ -24,6 +25,11 @@ function BuildControls(props) {
             disabled={props.disabled[ele.type]}
             />
         ))}
+        <button  className={classes.OrderButton}
+        onClick={props.order}
+        disabled = {!props.purchasable}>
+            ORDER NOW  
+        </button>
     </div>
   )
 }
