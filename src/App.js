@@ -1,17 +1,18 @@
-import Layout from "./components/Layout/Layout";
-import Toolbar from "./components/Navigation/Toolbar/Toolbar";
-import BurgerBuilder from "./containers/burgerBuilder/BurgerBuilder";
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div >
-      <Layout>
-        <Toolbar />
-        <BurgerBuilder />
-      </Layout>
-    </div>
-  );
+import Layout from './hoc/Layout/Layout';
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
+
+class App extends Component {
+  render () {
+    return (
+      <div>
+        <Layout>
+          <BurgerBuilder />
+        </Layout>
+      </div>
+    );
+  }
 }
 
 export default App;
-  
